@@ -66,13 +66,14 @@ and the same but with enp0s2, for the other file
 
 10. I just needed this, so that I could do arm things for ctf's:) That's it!
 
-[ To compile stuff for arm use aarch64-linux-gnu-g++ ] 
-[ To transfer files ones can do base64, or wget ] 
-[ To transfer files one can also use scp `scp test.txt root@localhost:/root/`]
-Add:
+[ To compile stuff for arm use aarch64-linux-gnu-g++ ] <br>
+[ To transfer files ones can do base64, or wget ] <br>
+[ To transfer files one can also use scp `scp test.txt root@localhost:/root/`]<br>
+<br>Add:
 ```
 -device virtio-net-pci,netdev=mynet -netdev user,id=mynet,hostfwd=tcp::2222-:22
 ```
+<br>
 Right before your `-no-reboot` in your qemu script
 
 Source: https://www.youtube.com/watch?v=Y-FUvi1z1aU
