@@ -1,3 +1,4 @@
+# To-Long-Didnt-Read
 The image comes shipped with GEF plugin and GDB. The following Qemu command can be used to run the image:
 ```
 qemu-system-aarch64 -M virt -m 1024 -smp 4 -cpu cortex-a53 \
@@ -13,7 +14,8 @@ This runs the image and opens port 22 for SSH and SCP from your host machine. Te
 
 To find the image and the required files look in RELEASES.
 
-Manual creation:
+
+# Manual creation:
 1. Install the raspberry pi image (see source at bottom), unzip, and give it a name - We'll call it rasp.img
 
 2. Run `sudo fdisk -l rasp.img`
