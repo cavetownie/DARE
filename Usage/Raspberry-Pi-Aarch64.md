@@ -69,7 +69,7 @@ and the same but with enp0s2, for the other file
 [ To compile stuff for arm use aarch64-linux-gnu-g++ ] <br>
 [ To transfer files ones can do base64, or wget ] <br>
 [ To transfer files one can also use scp `scp test.txt root@localhost:/root/`]<br>
-<br>Add:
+<br>To use the SCP add:
 ```
 -device virtio-net-pci,netdev=mynet -netdev user,id=mynet,hostfwd=tcp::2222-:22
 ```
