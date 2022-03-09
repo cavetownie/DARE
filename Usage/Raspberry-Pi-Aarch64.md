@@ -73,7 +73,6 @@ and the same but with enp0s2, for the other file
 ```
 -device virtio-net-pci,netdev=mynet -netdev user,id=mynet,hostfwd=tcp::2222-:22
 ```
-<br>
 Right before your `-no-reboot` in your qemu script
 
 Source: https://www.youtube.com/watch?v=Y-FUvi1z1aU
