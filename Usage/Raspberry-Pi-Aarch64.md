@@ -10,3 +10,5 @@ qemu-system-aarch64 -M virt -m 1024 -smp 4 -cpu cortex-a53 \
 You may have to run it as a one-liner.
 
 This runs the image and opens port 22 for SSH and SCP from your host machine. Tested on `5.4.0-104-generic #118-Ubuntu`
+
+To find the image and the required files look in RELEASES.
