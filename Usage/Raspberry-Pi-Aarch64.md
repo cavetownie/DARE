@@ -1,3 +1,6 @@
+Todo: 
+Add install script, which takes care of everything from scratch.
+
 # To-Long-Didnt-Read
 The image comes shipped with GEF plugin and GDB. The following Qemu command can be used to run the image:
 ```
